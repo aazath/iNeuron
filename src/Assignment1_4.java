@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		for (int i = 0; i < size; i++) {
 			//row
 			for (int j = 0; j < size; j++) {
-				if (i==j+(size/2)) 
+				if (i-j>=(size-1)/2 || i+j >= size -1 + (size-1)/2) 
 				{					
 					System.out.print(letter);
 				} else {
